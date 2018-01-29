@@ -1,0 +1,7 @@
+ipcrm/manifest_test:
+  Env:
+    - PORT: "8000"
+  Build:
+    - 'echo "PORT: ${PORT}'
+  PostInstall:
+    - 'echo "PORT: ${PORT}'
